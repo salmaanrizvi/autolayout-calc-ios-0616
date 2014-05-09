@@ -228,15 +228,14 @@
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yV0-KJ-CTc">
                                         <rect key="frame" x="19" y="26" width="280" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="280" id="w1h-VS-2lZ"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="yV0-KJ-CTc" secondAttribute="trailing" constant="21" id="DQZ-Lr-edi"/>
+                                    <constraint firstItem="yV0-KJ-CTc" firstAttribute="leading" secondItem="Lvx-iX-YZJ" secondAttribute="leading" constant="19" id="JNG-AX-hXy"/>
                                     <constraint firstAttribute="centerX" secondItem="yV0-KJ-CTc" secondAttribute="centerX" constant="1" id="aJU-aC-3Yx"/>
                                     <constraint firstItem="yV0-KJ-CTc" firstAttribute="top" secondItem="Lvx-iX-YZJ" secondAttribute="top" constant="26" id="b5O-8c-8eU"/>
                                 </constraints>
