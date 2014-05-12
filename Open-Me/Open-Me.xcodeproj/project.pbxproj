@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44CD1BF6191D77BB00140BD0 /* FISViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD1BF5191D77BB00140BD0 /* FISViewControllerSpec.m */; };
+		8F28C63090BB48DD87BDD9CA /* libPods-Open-MeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5559A7153DBB4DFCB4EB4661 /* libPods-Open-MeTests.a */; };
 		D8663B4618C6528F00B37118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8663B4518C6528F00B37118 /* Foundation.framework */; };
 		D8663B4818C6528F00B37118 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8663B4718C6528F00B37118 /* CoreGraphics.framework */; };
 		D8663B4A18C6528F00B37118 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8663B4918C6528F00B37118 /* UIKit.framework */; };
@@ -20,7 +22,6 @@
 		D8663B6618C6528F00B37118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8663B4518C6528F00B37118 /* Foundation.framework */; };
 		D8663B6718C6528F00B37118 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8663B4918C6528F00B37118 /* UIKit.framework */; };
 		D8663B6F18C6528F00B37118 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8663B6D18C6528F00B37118 /* InfoPlist.strings */; };
-		D8663B7118C6528F00B37118 /* Open_MeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8663B7018C6528F00B37118 /* Open_MeTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44CD1BF5191D77BB00140BD0 /* FISViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewControllerSpec.m; sourceTree = "<group>"; };
+		4BFE4A7EB45E4A4A8417351A /* Pods-Open-MeTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open-MeTests.xcconfig"; path = "Pods/Pods-Open-MeTests.xcconfig"; sourceTree = "<group>"; };
+		5559A7153DBB4DFCB4EB4661 /* libPods-Open-MeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Open-MeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8663B4218C6528F00B37118 /* Open-Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open-Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8663B4518C6528F00B37118 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8663B4718C6528F00B37118 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,7 +56,6 @@
 		D8663B6418C6528F00B37118 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D8663B6C18C6528F00B37118 /* Open-MeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Open-MeTests-Info.plist"; sourceTree = "<group>"; };
 		D8663B6E18C6528F00B37118 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D8663B7018C6528F00B37118 /* Open_MeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Open_MeTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,7 @@
 				D8663B6518C6528F00B37118 /* XCTest.framework in Frameworks */,
 				D8663B6718C6528F00B37118 /* UIKit.framework in Frameworks */,
 				D8663B6618C6528F00B37118 /* Foundation.framework in Frameworks */,
+				8F28C63090BB48DD87BDD9CA /* libPods-Open-MeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +90,7 @@
 				D8663B6A18C6528F00B37118 /* Open-MeTests */,
 				D8663B4418C6528F00B37118 /* Frameworks */,
 				D8663B4318C6528F00B37118 /* Products */,
+				4BFE4A7EB45E4A4A8417351A /* Pods-Open-MeTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +110,7 @@
 				D8663B4718C6528F00B37118 /* CoreGraphics.framework */,
 				D8663B4918C6528F00B37118 /* UIKit.framework */,
 				D8663B6418C6528F00B37118 /* XCTest.framework */,
+				5559A7153DBB4DFCB4EB4661 /* libPods-Open-MeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -137,8 +143,8 @@
 		D8663B6A18C6528F00B37118 /* Open-MeTests */ = {
 			isa = PBXGroup;
 			children = (
-				D8663B7018C6528F00B37118 /* Open_MeTests.m */,
 				D8663B6B18C6528F00B37118 /* Supporting Files */,
+				44CD1BF5191D77BB00140BD0 /* FISViewControllerSpec.m */,
 			);
 			path = "Open-MeTests";
 			sourceTree = "<group>";
@@ -176,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8663B7718C6528F00B37118 /* Build configuration list for PBXNativeTarget "Open-MeTests" */;
 			buildPhases = (
+				63B195972FA64F70A2EF6E4A /* Check Pods Manifest.lock */,
 				D8663B5F18C6528F00B37118 /* Sources */,
 				D8663B6018C6528F00B37118 /* Frameworks */,
 				D8663B6118C6528F00B37118 /* Resources */,
+				516CF03FB3604D18802B54B7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +253,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		516CF03FB3604D18802B54B7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Open-MeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63B195972FA64F70A2EF6E4A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D8663B3E18C6528F00B37118 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8663B7118C6528F00B37118 /* Open_MeTests.m in Sources */,
+				44CD1BF6191D77BB00140BD0 /* FISViewControllerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +441,7 @@
 		};
 		D8663B7818C6528F00B37118 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BFE4A7EB45E4A4A8417351A /* Pods-Open-MeTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Open-Me.app/Open-Me";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -422,6 +464,7 @@
 		};
 		D8663B7918C6528F00B37118 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BFE4A7EB45E4A4A8417351A /* Pods-Open-MeTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Open-Me.app/Open-Me";
 				FRAMEWORK_SEARCH_PATHS = (
