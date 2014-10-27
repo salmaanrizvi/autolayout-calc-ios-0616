@@ -174,20 +174,22 @@
                     </view>
                     <connections>
                         <outlet property="additionButton" destination="4Mv-tY-Kmr" id="u66-Kr-MRy"/>
-                        <outlet property="buttonsContainer" destination="LK9-BF-aRw" id="Bpd-l9-9Bp"/>
+                        <outlet property="bottomContainerView" destination="LK9-BF-aRw" id="ihl-mX-RDJ"/>
                         <outlet property="decimalButton" destination="cel-WX-uPK" id="tLq-uu-oV7"/>
+                        <outlet property="displayTextField" destination="yV0-KJ-CTc" id="2R5-ki-S1w"/>
                         <outlet property="divideButton" destination="1TZ-nz-qdy" id="gzR-yv-LKX"/>
                         <outlet property="eightButton" destination="DB0-kA-tll" id="lwO-y7-qsh"/>
-                        <outlet property="equalButton" destination="EpZ-UJ-p7h" id="Tpu-et-hrd"/>
+                        <outlet property="equalsButton" destination="EpZ-UJ-p7h" id="eJG-gt-Izd"/>
                         <outlet property="fiveButton" destination="1Se-RN-pgZ" id="asi-5s-6Jq"/>
                         <outlet property="fourButton" destination="rTm-G3-deF" id="KQl-Ng-fEg"/>
+                        <outlet property="minusButton" destination="TMm-EA-SSY" id="KAf-FY-dPg"/>
                         <outlet property="multiplyButton" destination="zES-c3-49V" id="7OX-xh-yFe"/>
                         <outlet property="nineButton" destination="Pa0-Mb-Q0M" id="EOI-PI-aLH"/>
                         <outlet property="oneButton" destination="mTU-Le-zPn" id="heG-ez-inx"/>
                         <outlet property="sevenButton" destination="RNU-7g-SM4" id="dsi-D3-Ckc"/>
                         <outlet property="sixButton" destination="NbG-23-VA1" id="Upe-Pp-hSI"/>
-                        <outlet property="subtractionButton" destination="TMm-EA-SSY" id="yVo-bC-YvZ"/>
                         <outlet property="threeButton" destination="wdu-kW-1cq" id="kUd-up-Ec9"/>
+                        <outlet property="topContainerView" destination="Lvx-iX-YZJ" id="jc1-4D-u6G"/>
                         <outlet property="twoButton" destination="EUT-pc-thl" id="nLB-FW-Ksz"/>
                         <outlet property="zeroButton" destination="fbb-Rv-xZy" id="zU5-Iy-MJ1"/>
                     </connections>
