@@ -11,8 +11,6 @@
 #define EXP_SHORTHAND
 #import "Expecta.h"
 #import "KIF.h"
-#define MOCKITO_SHORTHAND
-#import <OCMockito/OCMockito.h>
 
 #import "FISViewController.h"
 
