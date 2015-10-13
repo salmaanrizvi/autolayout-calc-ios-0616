@@ -17,19 +17,7 @@
 
 SpecBegin(FISViewController)
 
-describe(@"FISViewController", ^{
-   
-   // __block FISViewController *viewController;
-    
-    beforeAll(^{
-        //viewController = [[FISViewController alloc] init];
-        
-    });
-    
-    beforeEach(^{
-        
-    });
-    
+describe(@"FISViewController", ^{    
     it(@"Should have a container view that fills the top half of the screen", ^{
         UIView *bottomContainerView = [tester waitForViewWithAccessibilityLabel:@"topContainerView"];
         CGRect expectedTopContainerFrame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height / 2.0);
@@ -119,15 +107,6 @@ describe(@"FISViewController", ^{
         CGRect expectedTextFieldFrame = CGRectMake(standardSpacing, 30.0, width, textFieldIntrinsicHeight);
         
         expect(displayTextField.frame).to.equal(expectedTextFieldFrame);
-    });
-    
-    
-    afterAll(^{
-        
-    });
-    
-    afterEach(^{
-        
     });
 });
 SpecEnd
