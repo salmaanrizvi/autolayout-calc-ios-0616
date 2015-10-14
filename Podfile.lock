@@ -6,9 +6,9 @@ PODS:
   - Specta (1.0.4)
 
 DEPENDENCIES:
-  - Expecta
-  - KIF
-  - Specta
+  - Expecta (~> 1.0)
+  - KIF (~> 3.0)
+  - Specta (~> 1.0)
 
 SPEC CHECKSUMS:
   Expecta: 9d1bff6c8b0eeee73a166a2ee898892478927a15
