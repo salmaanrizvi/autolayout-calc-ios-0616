@@ -21,7 +21,7 @@
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9dW-uE-PqA">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="333"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yV0-KJ-CTc">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yV0-KJ-CTc">
                                         <rect key="frame" x="45" y="151" width="293" height="30"/>
                                         <accessibility key="accessibilityConfiguration" label="displayTextField"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -48,6 +48,9 @@
                                                 <state key="normal" title="1">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="digitTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="b16-gL-JPu"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTm-G3-deF">
                                                 <rect key="frame" x="33" y="84" width="30" height="84"/>
@@ -56,6 +59,9 @@
                                                 <state key="normal" title="4">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="digitTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="3Q0-6Z-r25"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNU-7g-SM4">
                                                 <rect key="frame" x="33" y="167" width="30" height="84"/>
@@ -64,6 +70,9 @@
                                                 <state key="normal" title="7">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="digitTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="5DR-6L-1ZL"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbb-Rv-xZy">
                                                 <rect key="frame" x="33" y="251" width="30" height="84"/>
@@ -72,6 +81,9 @@
                                                 <state key="normal" title="0">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="digitTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="nM4-ho-6pc"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -85,6 +97,9 @@
                                                 <state key="normal" title="2">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="digitTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="yy3-Xx-HgB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Se-RN-pgZ">
                                                 <rect key="frame" x="33" y="84" width="30" height="84"/>
@@ -93,6 +108,9 @@
                                                 <state key="normal" title="5">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="digitTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="H9l-4t-Flz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DB0-kA-tll">
                                                 <rect key="frame" x="33" y="167" width="30" height="84"/>
@@ -101,6 +119,9 @@
                                                 <state key="normal" title="8">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="digitTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="6Sp-gv-vWv"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cel-WX-uPK">
                                                 <rect key="frame" x="33" y="251" width="30" height="84"/>
@@ -109,6 +130,9 @@
                                                 <state key="normal" title=".">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="decimalTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="YDI-AQ-PDt"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -122,6 +146,9 @@
                                                 <state key="normal" title="3">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="digitTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="vR6-MG-ye5"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbG-23-VA1">
                                                 <rect key="frame" x="33" y="84" width="30" height="84"/>
@@ -130,22 +157,31 @@
                                                 <state key="normal" title="6">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="digitTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="k7k-BZ-9Rf"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pa0-Mb-Q0M">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pa0-Mb-Q0M">
                                                 <rect key="frame" x="33" y="167" width="30" height="84"/>
                                                 <accessibility key="accessibilityConfiguration" label="9"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="9">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="digitTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="RiM-Oy-XRE"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpZ-UJ-p7h">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpZ-UJ-p7h">
                                                 <rect key="frame" x="33" y="251" width="30" height="84"/>
                                                 <accessibility key="accessibilityConfiguration" label="="/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="=">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="equalsTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="Me1-2E-LTa"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -159,6 +195,9 @@
                                                 <state key="normal" title="-">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="operatorTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="aMJ-wp-Nl6"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zES-c3-49V">
                                                 <rect key="frame" x="33" y="84" width="30" height="84"/>
@@ -167,6 +206,9 @@
                                                 <state key="normal" title="x">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="operatorTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="rKf-Zz-cDf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TZ-nz-qdy">
                                                 <rect key="frame" x="33" y="167" width="30" height="84"/>
@@ -175,6 +217,9 @@
                                                 <state key="normal" title="/">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="operatorTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="SxC-oY-2YS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Mv-tY-Kmr">
                                                 <rect key="frame" x="33" y="251" width="30" height="84"/>
@@ -183,6 +228,9 @@
                                                 <state key="normal" title="+">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="operatorTapped:" destination="G8e-ZN-oxa" eventType="touchUpInside" id="1rB-NQ-BVv"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -212,6 +260,9 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="textField" destination="yV0-KJ-CTc" id="Jje-GW-5gM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uAu-9c-bIi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
