@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		44CD1BF81921519700140BD0 /* FISViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD1BF71921519700140BD0 /* FISViewControllerSpec.m */; };
 		96A82334280A4C2CBB7EDCF6 /* libPods-Open-MeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3BDE501DA541E8A349FFEB /* libPods-Open-MeTests.a */; };
+		BD8995311BCD4E1A00663058 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8995301BCD4E1A00663058 /* Launch Screen.storyboard */; };
 		D8663B4618C6528F00B37118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8663B4518C6528F00B37118 /* Foundation.framework */; };
 		D8663B4818C6528F00B37118 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8663B4718C6528F00B37118 /* CoreGraphics.framework */; };
 		D8663B4A18C6528F00B37118 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8663B4918C6528F00B37118 /* UIKit.framework */; };
@@ -38,6 +39,7 @@
 		44CD1BF71921519700140BD0 /* FISViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewControllerSpec.m; sourceTree = "<group>"; };
 		4D3BDE501DA541E8A349FFEB /* libPods-Open-MeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Open-MeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747C0F8327C5DC8CA3A68502 /* Pods-Open-MeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open-MeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Open-MeTests/Pods-Open-MeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD8995301BCD4E1A00663058 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D3E344FE3AB14CA9E7840956 /* Pods-Open-MeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open-MeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Open-MeTests/Pods-Open-MeTests.release.xcconfig"; sourceTree = "<group>"; };
 		D8663B4218C6528F00B37118 /* Open-Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open-Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8663B4518C6528F00B37118 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -135,6 +137,7 @@
 				D8663B5B18C6528F00B37118 /* FISViewController.m */,
 				D8663B5D18C6528F00B37118 /* Images.xcassets */,
 				D8663B4C18C6528F00B37118 /* Supporting Files */,
+				BD8995301BCD4E1A00663058 /* Launch Screen.storyboard */,
 			);
 			path = "Open-Me";
 			sourceTree = "<group>";
@@ -216,7 +219,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FIS;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Joe Burgess";
 				TargetAttributes = {
 					D8663B6218C6528F00B37118 = {
@@ -250,6 +253,7 @@
 			files = (
 				D8663B5E18C6528F00B37118 /* Images.xcassets in Resources */,
 				D8663B5018C6528F00B37118 /* InfoPlist.strings in Resources */,
+				BD8995311BCD4E1A00663058 /* Launch Screen.storyboard in Resources */,
 				D8663B5918C6528F00B37118 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,7 +377,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -388,6 +391,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -412,7 +416,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -445,10 +448,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Open-Me/Open-Me-Prefix.pch";
 				INFOPLIST_FILE = "Open-Me/Open-Me-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -458,10 +461,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Open-Me/Open-Me-Prefix.pch";
 				INFOPLIST_FILE = "Open-Me/Open-Me-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -471,7 +474,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 747C0F8327C5DC8CA3A68502 /* Pods-Open-MeTests.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Open-Me.app/Open-Me";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -485,6 +487,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Open-MeTests/Open-MeTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -495,7 +498,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D3E344FE3AB14CA9E7840956 /* Pods-Open-MeTests.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Open-Me.app/Open-Me";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -505,6 +507,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Open-Me/Open-Me-Prefix.pch";
 				INFOPLIST_FILE = "Open-MeTests/Open-MeTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
