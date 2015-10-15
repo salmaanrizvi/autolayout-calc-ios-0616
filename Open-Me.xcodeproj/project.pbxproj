@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44CD1BF81921519700140BD0 /* FISViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD1BF71921519700140BD0 /* FISViewControllerSpec.m */; };
-		4DD9E6861BCD7F5200359A78 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD9E6851BCD7F5200359A78 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		96A82334280A4C2CBB7EDCF6 /* libPods-Open-MeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3BDE501DA541E8A349FFEB /* libPods-Open-MeTests.a */; };
 		BD8995311BCD4E1A00663058 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8995301BCD4E1A00663058 /* Launch Screen.storyboard */; };
 		D8663B4618C6528F00B37118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8663B4518C6528F00B37118 /* Foundation.framework */; };
@@ -38,7 +36,6 @@
 
 /* Begin PBXFileReference section */
 		4D3BDE501DA541E8A349FFEB /* libPods-Open-MeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Open-MeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DD9E6851BCD7F5200359A78 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
 		747C0F8327C5DC8CA3A68502 /* Pods-Open-MeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open-MeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Open-MeTests/Pods-Open-MeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD8995301BCD4E1A00663058 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D3E344FE3AB14CA9E7840956 /* Pods-Open-MeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open-MeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Open-MeTests/Pods-Open-MeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,7 +134,6 @@
 				D8663B5A18C6528F00B37118 /* FISViewController.h */,
 				D8663B5B18C6528F00B37118 /* FISViewController.m */,
 				D8663B5D18C6528F00B37118 /* Images.xcassets */,
-				4DD9E6851BCD7F5200359A78 /* Launch Screen.storyboard */,
 				D8663B4C18C6528F00B37118 /* Supporting Files */,
 				BD8995301BCD4E1A00663058 /* Launch Screen.storyboard */,
 			);
@@ -254,7 +250,6 @@
 			files = (
 				D8663B5E18C6528F00B37118 /* Images.xcassets in Resources */,
 				D8663B5018C6528F00B37118 /* InfoPlist.strings in Resources */,
-				4DD9E6861BCD7F5200359A78 /* Launch Screen.storyboard in Resources */,
 				BD8995311BCD4E1A00663058 /* Launch Screen.storyboard in Resources */,
 				D8663B5918C6528F00B37118 /* Main.storyboard in Resources */,
 			);
