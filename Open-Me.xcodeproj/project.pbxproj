@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44CD1BF81921519700140BD0 /* FISViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD1BF71921519700140BD0 /* FISViewControllerSpec.m */; };
 		96A82334280A4C2CBB7EDCF6 /* libPods-Open-MeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3BDE501DA541E8A349FFEB /* libPods-Open-MeTests.a */; };
 		BD8995311BCD4E1A00663058 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8995301BCD4E1A00663058 /* Launch Screen.storyboard */; };
 		D8663B4618C6528F00B37118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8663B4518C6528F00B37118 /* Foundation.framework */; };
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		44CD1BF71921519700140BD0 /* FISViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewControllerSpec.m; sourceTree = "<group>"; };
 		4D3BDE501DA541E8A349FFEB /* libPods-Open-MeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Open-MeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747C0F8327C5DC8CA3A68502 /* Pods-Open-MeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open-MeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Open-MeTests/Pods-Open-MeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD8995301BCD4E1A00663058 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -156,7 +154,6 @@
 		D8663B6A18C6528F00B37118 /* Open-MeTests */ = {
 			isa = PBXGroup;
 			children = (
-				44CD1BF71921519700140BD0 /* FISViewControllerSpec.m */,
 				D8663B6B18C6528F00B37118 /* Supporting Files */,
 			);
 			path = "Open-MeTests";
@@ -331,7 +328,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44CD1BF81921519700140BD0 /* FISViewControllerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
