@@ -24,3 +24,5 @@ After you're done, check out how it looks on various devices and in various orie
 ## Extra Credit
 
 Make the calculator work! It's actually not as straightforward then you think.
+
+<a href='https://learn.co/lessons/autolayout-calc' data-visibility='hidden'>View this lesson on Learn.co</a>
