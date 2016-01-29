@@ -25,4 +25,4 @@ After you're done, check out how it looks on various devices and in various orie
 
 Make the calculator work! It's actually not as straightforward then you think.
 
-<a href='https://learn.co/lessons/autolayout-calc' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/autolayout-calc' title='Auto Layout Calculator'>Auto Layout Calculator</a> on Learn.co and start learning to code for free.</p>
