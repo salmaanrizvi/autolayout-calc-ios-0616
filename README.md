@@ -23,6 +23,8 @@ After you're done, check out how it looks on various devices and in various orie
 
 ## Extra Credit
 
-Make the calculator work! It's actually not as straightforward then you think.
+Make the calculator work! It's actually not as straightforward as you might think.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/autolayout-calc' title='Auto Layout Calculator'>Auto Layout Calculator</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/autolayout-calc'>Autolayout Calc (Stack Views)</a> on Learn.co and start learning to code for free.</p>
